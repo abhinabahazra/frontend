@@ -1,0 +1,16 @@
+h1{
+    margin: 0px;
+    margin-bottom: 10px !important;
+}
+.profile_image{
+    text-align: center;
+    
+}
+.img_responsive{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+.country {
+    color: rgb(209, 133, 133) !important;
+}

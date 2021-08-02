@@ -1,0 +1,21 @@
+.ViewNow{
+    background-color: rgb(20, 20, 63);
+    color: white;
+}
+.launchDate{
+    font-size: 11px;
+}
+@media (max-width: 550px) {
+    .ViewNow {
+      height: 20px;
+      width: 50px;
+  font-size: 7px;
+    }
+    .down_title1{
+        font-size: 8px;
+    }
+    .launchDate{
+        font-size: 8px;
+    }
+
+  }

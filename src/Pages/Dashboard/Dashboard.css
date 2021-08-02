@@ -1,0 +1,63 @@
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(180, 170, 170); font-family: 'Helvetica Neue', sans-serif;  font-weight: bold; letter-spacing: -1px; line-height: 1;
+}
+.producer_information{
+    text-align: center;
+    margin-bottom: 70px !important;
+}
+.card{
+text-align: left !important;
+}
+
+.card {
+    box-shadow: 10px 10px 10px 10px rgba(241, 240, 240, 0.4);
+    /* box-shadow: 5px 10px 5px 10px #888888;     */
+
+    
+    transition: 0.3s;
+    width: 40%;
+    color: wheat;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(223, 197, 197, 0.2);
+
+  }
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item{
+      margin-bottom: 40px;
+  }
+.movie_info{
+    border: 2px solid white;
+}
+
+.MuiTableCell-head{
+    color: blue !important;
+}
+
+.card1{
+   
+    }
+    
+    .card1 {
+        box-shadow: 10px 10px 10px 10px rgba(241, 240, 240, 0.4);
+        /* box-shadow: 5px 10px 5px 10px #888888;     */
+    
+        
+        transition: 0.3s;
+        width: 100%;
+        color: wheat;
+        margin-left: 260px !important;
+      }
+      
+      .card1:hover {
+        box-shadow: 0 8px 16px 0 rgba(223, 197, 197, 0.2);
+    
+      }
+
+      @media (max-width: 700px) {
+        .card1{
+            margin-left: 0px !important;
+        }
+      }

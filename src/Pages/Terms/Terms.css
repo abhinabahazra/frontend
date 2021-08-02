@@ -1,0 +1,17 @@
+/* 
+.conditions h4{
+    color: burlywood;
+}
+.content li {
+    font-size: 18px !important;
+} */
+
+.content {
+    font-size: 14px !important;
+}
+.content h4{
+    font-size: 20px !important;
+}
+.conditions h2 {
+    padding: 0px !important;
+}

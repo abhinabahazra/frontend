@@ -1,0 +1,161 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #333;
+  color: white;
+  padding-bottom: 70px;
+}
+
+/* @media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
+  }
+} */
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 50px;
+  color: white;
+}
+
+.modal-bg {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-bg > .modal {
+  margin: 15% auto;
+  padding: 20px;
+  height: fit-content;
+  background: white;
+  margin:auto;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.makeStyles-paper-68{
+  margin-top: 0px !important;
+}
+.makeStyles-paper-2{
+  margin-top: 0px !important;
+
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
+@media (min-width: 1280px){
+.MuiContainer-maxWidthLg {
+    max-width:2000px !important;
+}
+}
+
+
+
+.slick-prev:before {
+  font-size: 47px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+  margin-left: -22px;
+}
+.slick-next:before {
+  font-size: 47px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+  margin-left: -7px;
+}
+
+@media (max-width: 600px){
+  .slick-prev:before   {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+  }
+  }
+  @media (max-width: 600px){
+    /* .MuiContainer-root  {
+    margin-top: 208px;
+    } */
+    .app{
+      margin-top: 20px;
+    }
+    }
+  @media (max-width: 600px){
+    .slick-next:before   {
+      font-size: 20px;
+      line-height: 1;
+      opacity: .75;
+      color: #fff;
+      margin-left: 10px;
+    }
+    }
+    .media:hover {
+      -ms-transform: scale(1.01); 
+      -webkit-transform: scale(1.01);
+      transform: scale(1.01); 
+    }
+    .MuiFilledInput-input{
+      color: black !important;
+    }
+    
+  #disclaimer{
+    width: 800px;
+    justify-content: center;
+    text-align: center;
+  }
+  .disclaimer_button{
+    background: #333;
+    color: #F0F0F0;
+    border: 2px solid #F0F0F0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 20px 75px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 30px;
+    transition: all 0.4s;
+  }
+  .disclaimer_button:hover, .disclaimer_button:focus {
+	background-color: white;
+	color: #333333;
+  }
+
+
+
+
+  

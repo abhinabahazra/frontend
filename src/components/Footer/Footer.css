@@ -1,0 +1,34 @@
+.footer_tag{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px !important ;
+    text-align: center;
+}
+.footer_tag a {
+    font-size: 20px;
+}
+
+.Copyright{
+    font-size: 15px;
+    margin-left:615px !important;
+    color: white !important;
+}
+.magnox{
+    font-size: 12px;
+    margin-left: 695px !important;
+    color: white !important;
+}
+.last_footer{
+    margin-left: 100px;
+}
+@media (max-width: 700px) {
+    .Copyright {
+margin-left: 0px !important;
+    }
+    .magnox{
+        margin-left: 70px !important;
+
+    }
+  }

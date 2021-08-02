@@ -1,0 +1,44 @@
+main{
+ 
+    
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item{
+    margin-bottom: 0px !important;
+}
+.close_button{
+    font-size: 40px !important;
+}
+.modal-header
+{
+    width: 100%;
+}
+.hints {
+    font-size: 12px !important;
+}
+
+.google_button button{
+    background-color: tomato;
+}
+/* .fa-google-plus , .fa-facebook{
+    font-size: 22px;
+    margin-right: 10px;
+} */
+.message{
+    color:red;
+}
+.MuiTypography-root{
+    cursor: pointer;
+}
+.google_login{
+    width: 100%;
+    text-align: center !important;
+}
+
+.info_messages{
+    text-align: center;
+}
+
+.google_login{
+    background-color: #3f51b5 !important;
+    color: white !important;
+}
